@@ -32,14 +32,12 @@ const endPointGeral = 'https://tmdb-proxy.cubos-academy.workers.dev/3/movie/4369
 const endPointVideo = 'https://tmdb-proxy.cubos-academy.workers.dev/3/movie/436969/videos?language=pt-BR';
 const endPointDeBusca = 'https://tmdb-proxy.cubos-academy.workers.dev/3/search/movie?language=pt-BR&include_adult=false&query=';
 
-// VARIAVEIS AUXILIARES
+
 const limiteDeFilmesNaTela = 5;
 const posicaoInicialDoConjuntoDeFilmeASerCarregado = 4;
 let arrayFilmes;
 let ultimaPosicaoQuintoFilmeNaTela;
 
-
-// INÍCIO CSS DINÂMICO
 
 const temaInicial = localStorage.getItem('tema');
 
@@ -78,8 +76,6 @@ btnTheme.addEventListener('click', function(){
     const novoHighlightDescBackground = highlightInfo.style.getPropertyValue('--box-shadow-para-claro') === '#00000026' ? '#ffffff26' : '#00000026';
     highlightInfo.style.setProperty('--box-shadow-para-claro', novoHighlightDescBackground);
 });
-
-// FIM CSS DINÂMICO
 
 
 function abrirModal() {
@@ -268,7 +264,6 @@ boxBuscarFilmes.addEventListener('keydown', (event) => {
             return;
         }
 
-        
         const corpoPromessaBusca = promessaDaBusca.json();
         
         corpoPromessaBusca.then((corpoDaRespostaDaBusca) => {
