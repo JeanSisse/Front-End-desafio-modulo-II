@@ -2,10 +2,7 @@
 
 # Desafio | Front-end - Módulo 2
 
-Você acabou de ser contratado pela melhor empresa de tecnologia do mundo: a **CUBOS**.
-Sua primeira tarefa como desenvolvedor é criar uma aplicação para um serviço de streaming (pense num Netflix).
-
-Seu papel é construir um website com [o seguinte design](https://www.figma.com/file/AL6hZ3Lq16Uj8mw1o4BzAK/Desafio-front-academy-2?node-id=0%3A1) que permita: (funcionalidades com \* ao lado são obrigatórias)
+Este desafio consiste em construir um website com [o seguinte design](https://www.figma.com/file/AL6hZ3Lq16Uj8mw1o4BzAK/Desafio-front-academy-2?node-id=0%3A1) que permita: (as funcionalidades com \* ao lado são obrigatórias)
 
 - Visualização de filmes (\*)
 - Paginação de filmes (\*)
@@ -375,12 +372,12 @@ Informações do retorno da API necessárias para o preenchimento:
 - src da `<img class="modal__img">` === backdrop_path
 - texto do `<p class="modal__description">` === overview
 - texto da `<div class="modal__average">` === vote_average
-- **ISSO NÃO É OBRIGATÓRIO**
+- **Itens não obrigatórios que também foram desenvolvidos neste desafio:**
   - para cada genre, você deverá criar um `<span class="modal__genre">`, colocar como texto o valor de genre.name e adicioná-lo na `<div class="modal__genres">`
 
 O modal poderá ser "fechado" por meio de um clique nele próprio ou na `<img class="modal__close">`, ao clicar em qualquer um dos dois, a classe "hidden" deverá ser adicionada a `<div class="modal">`
 
-### Mudança de tema **NÃO OBRIGATÓRIO**
+### Mudança de tema **NÃO OBRIGATÓRIO que também foi aplicado neste projeto:**
 
 Ao clicar na `<img class="btn-theme">`, caso o **tema atual** seja "light" ou "claro", o mesmo deverá ser trocado para o tema "dark" ou "escuro", após isso, você deverá modificar o tema (imagens e cores) do seu website de acordo com o Figma. Essa troca de tema, poderá ser facilitada caso seja feita por meio da troca de variáveis CSS.
 
