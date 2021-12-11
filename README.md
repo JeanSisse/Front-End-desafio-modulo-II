@@ -381,4 +381,6 @@ O modal poderá ser "fechado" por meio de um clique nele próprio ou na `<img cl
 
 Ao clicar na `<img class="btn-theme">`, caso o **tema atual** seja "light" ou "claro", o mesmo deverá ser trocado para o tema "dark" ou "escuro", após isso, você deverá modificar o tema (imagens e cores) do seu website de acordo com o Figma. Essa troca de tema, poderá ser facilitada caso seja feita por meio da troca de variáveis CSS.
 
+### Para testar o projeto em um navegador, basta baixar o projeto como zip ou clonar o repositório para sua máquina local, em seguida entre na pasta do projeto e dê duplo click ou click com botão direito e escolher opção abrir em um navegador no arquivo index.html.
+
 ###### tags: `front-end` `módulo 2` `HTML` `DOM` `CSS` `desafio`
